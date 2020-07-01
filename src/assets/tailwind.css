@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+
+.change-page-button {
+    @apply bg-gray-300;
+    @apply mx-2;
+    @apply py-1;
+    @apply px-5;
+    @apply text-3xl;
+    @apply cursor-pointer;
+    @apply rounded-full;
+}
+
+@import "tailwindcss/utilities";
